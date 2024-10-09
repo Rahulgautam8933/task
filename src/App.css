@@ -1,0 +1,52 @@
+
+.header-button{
+    width: 163px;
+
+}
+
+
+
+.serviceId{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 25px 0px;
+    box-shadow: 11px -2px 0px -5px blue;
+}
+.hero-main{
+    display: block !important;
+      }
+
+
+      .menubar{
+display: none;
+      }
+
+
+
+@media (max-width: 768px) and (min-width: 0px) {
+   .heading-content{
+    flex-wrap: wrap;
+    gap: 1rem !important;
+   }
+  }
+@media (max-width: 1024px) and (min-width: 0px) {
+  .hero-main{
+display: none !important;
+  }
+  .nav-main{
+display: none !important;
+  }
+
+  .menubar{
+    display: flex;
+    justify-content: end;
+    font-size: 2rem;
+
+  }
+  }

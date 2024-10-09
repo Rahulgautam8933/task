@@ -9,15 +9,10 @@ const Footer = () => {
             <div
                 className="bg-black text-white flex items-center justify-center min-h-screen py-8"
             >
-
                 <div>
-
-
                     <div
                         className="flex flex-col w-[90%] m-auto md:flex-row items-center justify-center   bg-black"
                     >
-
-
                         <div className="w-full md:w-1/2 p-4">
                             <img
                                 src={contact}
